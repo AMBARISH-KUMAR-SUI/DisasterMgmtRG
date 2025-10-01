@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Disaster Admin Panel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Disaster Management Dashboard</h1>
+
+  <div class="controls">
+    <button onclick="sendAlert()">🚨 Trigger Alert</button>
+    <button onclick="runDiagnostics()">🧪 Run Diagnostics</button>
+    <button onclick="clearLogs()">🧹 Clear Logs</button>
+  </div>
+
+  <div id="map" class="map-container">
+    <p class="map-loader">🧭 Loading map interface...</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
